@@ -12,9 +12,18 @@ This is the end partition layout using the steps below:
 
 ## Boot from Live Disk
 
+First we would download the Debian Testing (bullseye as of this article creation) from here:
 
+https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-dvd/
+
+Then we will create a live disk using the ISO file and a flash drive/thumb drive using these steps:
+
+http://support.system76.com/articles/live-disk/
+
+## Connect to the Network
+
+This can be done though the installer though only Ethernet will be avaiable unless you use the non-free ISO (it is unofficial so not updated very well). 
 
 # Sources used
-- https://linuxhint.com/setup-luks-encryption-on-arch-linux/
-- https://gist.github.com/OdinsPlasmaRifle/e16700b83624ff44316f87d9cdbb5c94
-
+-
+-
