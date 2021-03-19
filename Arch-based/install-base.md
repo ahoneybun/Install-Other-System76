@@ -1,4 +1,7 @@
 ## Arch-LUKS-systemd-boot-install
+
+### This was done on a System76 galp3-b
+
 Config files and steps to install Arch encrypted LUKS and systemd-boot as the bootloader.
 
 This is the end partition layout using the steps below:
