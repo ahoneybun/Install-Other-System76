@@ -1,5 +1,7 @@
 ## Debian-install
 
+### This was done on a System76 Oryx Pro (oryp4)
+
 This is the end partition layout using the steps below:
 
 ```nvme0n1        259:0    0 465.8G  0 disk  
