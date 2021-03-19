@@ -16,6 +16,8 @@ First we would download the Debian Testing (bullseye as of this article creation
 
 https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-dvd/
 
+Debian Testing is recommended as current Debian Stable (Debian 10) has Linux Kernel 4.19 and current Debian Testing has Linux Kernel 5.10.0. 
+
 Then we will create a live disk using the ISO file and a flash drive/thumb drive using these steps:
 
 http://support.system76.com/articles/live-disk/
