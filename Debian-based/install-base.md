@@ -24,6 +24,39 @@ http://support.system76.com/articles/live-disk/
 
 This can be done though the installer though only Ethernet will be avaiable unless you use the non-free ISO (it is unofficial so not updated very well). 
 
+## Editing sources.list file
+
+1. Switch to the root user : `su root`
+2. Edit the sources.list file : `nano /etc/apt/sources.list`
+3. Set up the lines like below:
+
+```
+deb http://deb.debian.org/debian bullseye main contrib non-free
+# deb-src http://deb.debian.org/debian bullseye main contrib non-free
+
+deb http://deb.debian.org/debian-security/ bullseye/updates main contrib non-free
+# deb-src http://deb.debian.org/debian-security/ bullseye/updates main contrib non-free
+
+deb http://deb.debian.org/debian bullseye-updates main contrib non-free
+# deb-src http://deb.debian.org/debian bullseye-updates main contrib non-free
+```
+
+## Installing the iwlwifi firmware and the NVIDIA driver (only for NVIDIA systems)
+
+```
+apt update -m
+apt upgrade
+apt full-upgrade
+apt install firmware-iwlwifi
+apt install nvidia-driver
+```
+
+Once that is complete we can reboot the system into the Debian 11 release (bullseye) and the new NVIDIA driver:
+
+```
+systemctl reboot
+```
+
 # Sources used
--
+- https://wiki.debian.org/SourcesList
 -
