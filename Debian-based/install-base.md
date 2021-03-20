@@ -43,14 +43,12 @@ deb http://deb.debian.org/debian bullseye-updates main contrib non-free
 # deb-src http://deb.debian.org/debian bullseye-updates main contrib non-free
 ```
 
-#### Installing the iwlwifi firmware and the NVIDIA driver (only for NVIDIA systems)
+#### Fully update and upgrade the system
 
 ```
 apt update -m
 apt upgrade
 apt full-upgrade
-apt install firmware-iwlwifi
-apt install nvidia-driver
 ```
 
 Once that is complete we can reboot the system into the Debian 11 release (bullseye) and the new NVIDIA driver:
