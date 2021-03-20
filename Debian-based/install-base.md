@@ -59,6 +59,12 @@ Once that is complete we can reboot the system into the Debian 11 release (bulls
 systemctl reboot
 ```
 
+#### Add user to the sudoers file
+
+```
+
+```
+
 # Sources used
 - https://wiki.debian.org/SourcesList
 -
