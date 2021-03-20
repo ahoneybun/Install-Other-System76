@@ -22,11 +22,11 @@ Then we will create a live disk using the ISO file and a flash drive/thumb drive
 
 http://support.system76.com/articles/live-disk/
 
-## Connect to the Network
+### Connect to the Network
 
 This can be done though the installer though only Ethernet will be avaiable unless you use the non-free ISO (it is unofficial so not updated very well). 
 
-## Editing sources.list file
+#### Editing sources.list file
 
 1. Switch to the root user : `su root`
 2. Edit the sources.list file : `nano /etc/apt/sources.list`
@@ -43,7 +43,7 @@ deb http://deb.debian.org/debian bullseye-updates main contrib non-free
 # deb-src http://deb.debian.org/debian bullseye-updates main contrib non-free
 ```
 
-## Installing the iwlwifi firmware and the NVIDIA driver (only for NVIDIA systems)
+#### Installing the iwlwifi firmware and the NVIDIA driver (only for NVIDIA systems)
 
 ```
 apt update -m
