@@ -57,7 +57,11 @@ Once that is complete we can reboot the system into the Debian 11 release (bulls
 systemctl reboot
 ```
 
-#### Add user to the sudoers file
+#### Installing the iwlwifi firmware and the NVIDIA driver (only for NVIDIA systems) 
+
+**NOTE** with this version of the NVIDIA driver you will not have switchable graphics. 
+
+#### Add user to the wheel group and enable sudo use for your user
 
 ```
 
