@@ -66,12 +66,6 @@ apt install firmware-iwlwifi
 apt install nvidia-driver
 ```
 
-#### Add user to the wheel group and enable sudo use for your user
-
-```
-
-```
-
 # Sources used
 - https://wiki.debian.org/SourcesList
 -
