@@ -59,7 +59,12 @@ systemctl reboot
 
 #### Installing the iwlwifi firmware and the NVIDIA driver (only for NVIDIA systems) 
 
-**NOTE** with this version of the NVIDIA driver you will not have switchable graphics. 
+**NOTE:** with this version of the NVIDIA driver you will not have switchable graphics. 
+
+```
+apt install firmware-iwlwifi
+apt install nvidia-driver
+```
 
 #### Add user to the wheel group and enable sudo use for your user
 
