@@ -164,7 +164,7 @@ makepkg -srcif
 ```
 
 ## Build and Install system76-oled 
-(this is only needed for systems with OLED panels like the addw1/addw2)
+(this is only needed for systems with OLED panels)
 
 ### Download PKGBUILD:
 
