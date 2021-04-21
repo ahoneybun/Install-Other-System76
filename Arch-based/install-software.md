@@ -89,6 +89,7 @@ git clone https://aur.archlinux.org/system76-power.git
 cd system76-power
 makepkg -srcif
 sudo systemctl enable --now system76-power
+sudo gpasswd -a $USER adm
 ```
 
 **NOTE**
@@ -97,6 +98,8 @@ sudo systemctl enable --now system76-power
     X11 config to make the GPU switching work, see below:
 
         https://wiki.archlinux.org/index.php/NVIDIA_Optimus#Use_NVIDIA_graphics_only
+        
+ You will also need to reboot or logout/back in to use system76-power on some systems. 
 
 ## Build and Install gnome-shell-extension-system76-power
 
