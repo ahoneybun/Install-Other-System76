@@ -155,6 +155,18 @@ myhostname
 127.0.0.1   myhostname.localdomain myhostname
 ```
 
+### mkinitcpio.conf
+
+Next edit the mkinitcpio.confi file and change this section:
+
+HOOKS=(base udev autodetect modconf block filesystems keyboard fsck)
+
+to this:
+
+HOOKS=(base udev autodetect modconf block encrypt filesystems keyboard fsck)
+
+Note the new encrypt line and it's position.
+
 ### InitramFS
 
 ```
