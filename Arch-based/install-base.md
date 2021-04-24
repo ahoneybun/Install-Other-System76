@@ -222,10 +222,10 @@ passwd
 pacman -S lvm2
 ```
 
-### install GNOME
+### install GNOME and set it up
 
 ```
-pacman -S gnome
+pacman -S gnome gnome-software-packagekit-plugin
 systemctl enable gdm
 ```
 
