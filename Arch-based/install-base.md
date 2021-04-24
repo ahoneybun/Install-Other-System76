@@ -90,7 +90,7 @@ ls /dev/mapper/
 
 ```
 mkfs.fat -F32 /dev/***p1
-mkfs.ext4 /dev/***p2
+mkfs.ext4 /dev/mapper/crypt_root
 mkswap /dev/***p3
 ```
 
