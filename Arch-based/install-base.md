@@ -157,13 +157,17 @@ myhostname
 
 ### mkinitcpio.conf
 
-Next edit the mkinitcpio.confi file and change this section:
+Next edit the `mkinitcpio.conf` file and change this section:
 
+```
 HOOKS=(base udev autodetect modconf block filesystems keyboard fsck)
+```
 
 to this:
 
+```
 HOOKS=(base udev autodetect modconf block encrypt filesystems keyboard fsck)
+```
 
 Note the new encrypt line and it's position.
 
@@ -216,6 +220,19 @@ passwd
 
 ```
 pacman -S lvm2
+```
+
+### install GNOME
+
+```
+pacman -S gnome
+systemctl enable gdm
+```
+
+### Install iwd for Internet just in case!
+
+```
+pacman -S iwd
 ```
 
 # Sources used
