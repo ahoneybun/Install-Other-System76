@@ -92,6 +92,8 @@ sudo systemctl enable --now system76-power
 sudo gpasswd -a $USER adm
 ```
 
+The gpasswd command is needed for the GNOME Shell Extension for System76 Power to work as well as the Firmware Manager. 
+
 **NOTE**
 
  If you are using a NVIDIA graphics card, you may need to add additional
