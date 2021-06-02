@@ -218,6 +218,11 @@ No) exit 1
 
 esac
 
+# Add user to adm group
+sudo usermod -aG adm $USER
+
+echo "You will need to reboot for the last command to take effect"
+
 # Clean up
 # ---
 
