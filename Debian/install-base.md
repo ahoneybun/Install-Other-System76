@@ -64,7 +64,7 @@ su
 sudo usermod -aG sudo $USER 
 ```
 
-Replace $USER with your username
+Replace $USER with your username and then log out then back in for the group change to take effect.
 
 #### Installing the iwlwifi firmware and the NVIDIA driver (only for NVIDIA systems) 
 
