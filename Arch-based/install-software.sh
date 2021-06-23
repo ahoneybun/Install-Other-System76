@@ -65,26 +65,61 @@ cd ..
 
 sleep 5
 
-echo "-------------------------"
-echo "| System76 DKMS package |"
-echo "-------------------------"
-sleep 2
+echo "---------------------------------"
+echo "| Does this have Open Firmware? |"
+echo "| - Yes                         |"
+echo "| - No                          |"
+echo "---------------------------------"
 
-echo ""
-echo "- Downloading from the AUR"
-echo ""
+echo -n ": "; read closed
+case "$closed" in
 
-git clone https://aur.archlinux.org/system76-dkms.git
+Yes) 
+   echo ""
+   echo "- Downloading from the AUR"
+   echo ""
 
-echo ""
-echo "- Entering the directory and building"
-echo ""
+   git clone https://aur.archlinux.org/system76-dkms.git
 
-cd system76-dkms
-makepkg -srcif
-cd ..
+   echo ""
+   echo "- Entering the directory and building"
+   echo ""
 
-sleep 5
+   cd system76-dkms
+   makepkg -srcif
+   cd ..
+   ;;
+No) break
+
+esac
+
+echo "---------------------------------"
+echo "| Does this have Open Firmware? |"
+echo "| - Yes                         |"
+echo "| - No                          |"
+echo "---------------------------------"
+
+echo -n ": "; read closed
+case "$closed" in
+
+Yes) 
+   echo ""
+   echo "- Downloading from the AUR"
+   echo ""
+
+   git clone https://aur.archlinux.org/system76-acpi-dkms.git
+
+   echo ""
+   echo "- Entering the directory and building"
+   echo ""
+
+   cd system76-acpi-dkms
+   makepkg -srcif
+   cd ..
+   ;;
+No) break
+
+esac
 
 echo "--------------------------"
 echo "| System76 Power package |"
@@ -161,27 +196,6 @@ sudo systemctl enable --now system76
 
 sleep 5
 
-echo "-------------------------"
-echo "| System76 ACPI package |"
-echo "-------------------------"
-sleep 2
-
-echo ""
-echo "- Downloading from the AUR"
-echo ""
-
-git clone https://aur.archlinux.org/system76-acpi-dkms.git
-
-echo ""
-echo "- Entering the directory and building"
-echo ""
-
-cd system76-acpi-dkms
-makepkg -srcif
-cd ..
-
-sleep 5
-
 echo "----------------------------"
 echo "| Is this a Thelio system? |"
 echo "| - Yes                    |"
@@ -206,8 +220,8 @@ echo "| - Yes                                     |"
 echo "| - No                                      |"
 echo "---------------------------------------------"
 
-echo -n ": "; read addw
-case "$addw" in
+echo -n ": "; read oled
+case "$oled" in
 
 Yes) git clone https://aur.archlinux.org/system76-oled.git
    cd system76-oled
