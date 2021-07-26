@@ -17,9 +17,9 @@ sleep 2
 
 sudo pacman -S --needed base-devel git linux-headers
 
-echo "----------------------------"
+echo "---------------------"
 echo "| System76 Firmware |"
-echo "----------------------------"
+echo "---------------------"
 sleep 2
 
 echo ""
@@ -214,11 +214,11 @@ No) break
 
 esac
 
-echo "---------------------------------------------"
-echo "| Does your system have an OLED panel?      |"
-echo "| - Yes                                     |"
-echo "| - No                                      |"
-echo "---------------------------------------------"
+echo "----------------------------------------"
+echo "| Does your system have an OLED panel? |"
+echo "| - Yes                                |"
+echo "| - No                                 |"
+echo "----------------------------------------"
 
 echo -n ": "; read oled
 case "$oled" in
