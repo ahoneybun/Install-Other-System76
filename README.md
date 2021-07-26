@@ -1,5 +1,6 @@
-# Install-OtherOSes-on-System76
-This goes over steps that I have done to install other OSes on System76 hardware.
+# Disclaimer
+
+This work is all community work and none of it has been tested by System76 QA or Engineering. This is not officially supported by the System76 Happiness Team (Tech Support). YMMV as always. 
 
 ## Arch install steps   : DONE
 
