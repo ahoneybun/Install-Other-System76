@@ -23,3 +23,23 @@ This work is all community work and none of it has been tested by System76 QA or
 - [ ] Power profiles (GNOME Shell Extension and command line)
 
 NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install system76-power and other packages due to libc6 being too old. 
+
+## OpenSUSE based
+
+- [ ] Firmware Updates
+- [ ] Keyboard backlight key combo
+- [ ] Screen backlight key combo
+- [ ] Sound key combo
+- [ ] System76 Driver Log creation
+- [ ] Graphic Switching (only applies to NVIDIA systems)
+- [ ] Power profiles (GNOME Shell Extension and command line)
+
+## Red Hat based
+
+- [ ] Firmware Updates
+- [ ] Keyboard backlight key combo
+- [ ] Screen backlight key combo
+- [ ] Sound key combo
+- [ ] System76 Driver Log creation
+- [ ] Graphic Switching (only applies to NVIDIA systems)
+- [ ] Power profiles (GNOME Shell Extension and command line)
