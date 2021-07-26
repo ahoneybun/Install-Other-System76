@@ -2,7 +2,7 @@
 
 This work is all community work and none of it has been tested by System76 QA or Engineering. This is not officially supported by the System76 Happiness Team (Tech Support). YMMV as always. 
 
-## Arch install steps
+## Arch
 
 - [x] Firmware Updates
 - [x] Keyboard backlight key combo
@@ -12,7 +12,7 @@ This work is all community work and none of it has been tested by System76 QA or
 - [ ] Graphic Switching (only applies to NVIDIA systems)
 - [x] Power profiles
 
-## Debian install steps
+## Debian
 
 - [x] Firmware Updates
 - [ ] Keyboard backlight key combo
