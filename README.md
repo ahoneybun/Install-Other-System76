@@ -2,7 +2,7 @@
 
 This work is all community work and none of it has been tested by System76 QA or Engineering. This is not officially supported by the System76 Happiness Team (Tech Support). YMMV as always. 
 
-## Arch install steps   : DONE
+## Arch install steps   : [x]
 
 Everything seems to work other then graphic switching for NVIDIA systems. 
 
