@@ -29,3 +29,15 @@ sudo system76-power graphics nvidia
 ```bash
 sudo systemctl reboot
 ```
+
+## Switching back to Integrated
+
+```bash
+sudo system76-power graphics integrated
+```
+
+### Reboot
+
+```bash
+sudo systemctl reboot
+```
