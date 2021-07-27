@@ -1,5 +1,11 @@
 # Enable graphics switching using system76-power
 
+Enable the systemd service
+
+```bash
+sudo systemctl enable system76-power
+```
+
 ## Edit GDM config file
 
 ```bash
