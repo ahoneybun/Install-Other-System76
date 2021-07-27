@@ -1,6 +1,9 @@
 # Arch-LUKS-systemd-boot-install
 
-## This was done on a System76 Galago Pro (galp3-b)
+## System details
+
+- Galago Pro (galp3-b)
+- Oryx Pro (oryp4 and oryp6)
 
 Config files and steps to install Arch encrypted LUKS and systemd-boot as the bootloader.
 
