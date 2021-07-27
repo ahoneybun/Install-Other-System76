@@ -9,7 +9,7 @@ This work is all community work and none of it has been tested by System76 QA or
 - [x] Screen backlight key combo
 - [x] Sound key combo
 - [x] System76 Driver Log creation
-- [ ] Graphic Switching (only applies to NVIDIA systems)
+- [x] Graphic Switching (only works with X11)
 - [x] Power profiles (GNOME Shell 40 Extension and command line)
 
 ## Debian
