@@ -5,9 +5,9 @@ This work is all community work and none of it has been tested by System76 QA or
 ## Arch
 
 - [x] Firmware Updates
-- [x] Keyboard backlight key combo
-- [x] Screen backlight key combo
-- [x] Sound key combo
+- [x] Keyboard backlight key combo(s)
+- [x] Screen backlight key combos
+- [x] Sound key combos
 - [x] System76 Driver Log creation
 - [x] Graphic Switching (only works with X11)
 - [x] Power profiles (GNOME Shell 40 Extension and command line)
@@ -15,9 +15,9 @@ This work is all community work and none of it has been tested by System76 QA or
 ## Debian
 
 - [x] Firmware Updates
-- [ ] Keyboard backlight key combo
-- [ ] Screen backlight key combo
-- [ ] Sound key combo
+- [ ] Keyboard backlight key combo(s)
+- [ ] Screen backlight key combos
+- [ ] Sound key combos
 - [ ] System76 Driver Log creation
 - [ ] Graphic Switching (only applies to NVIDIA systems)
 - [ ] Power profiles (GNOME Shell Extension and command line)
@@ -27,9 +27,9 @@ NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install s
 ## OpenSUSE based
 
 - [ ] Firmware Updates
-- [ ] Keyboard backlight key combo
-- [ ] Screen backlight key combo
-- [ ] Sound key combo
+- [ ] Keyboard backlight key combo(s)
+- [ ] Screen backlight key combos
+- [ ] Sound key combos
 - [ ] System76 Driver Log creation
 - [ ] Graphic Switching (only applies to NVIDIA systems)
 - [ ] Power profiles (GNOME Shell Extension and command line)
@@ -37,9 +37,9 @@ NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install s
 ## Red Hat based
 
 - [ ] Firmware Updates
-- [ ] Keyboard backlight key combo
-- [ ] Screen backlight key combo
-- [ ] Sound key combo
+- [ ] Keyboard backlight key combo(s)
+- [ ] Screen backlight key combos
+- [ ] Sound key combos
 - [ ] System76 Driver Log creation
 - [ ] Graphic Switching (only applies to NVIDIA systems)
 - [ ] Power profiles (GNOME Shell Extension and command line)
