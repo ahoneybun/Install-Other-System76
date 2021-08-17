@@ -196,6 +196,25 @@ sudo systemctl enable --now system76
 
 sleep 5
 
+echo "---------------------------------"
+echo "| System76 GNOME Control Center |"
+echo "---------------------------------"
+sleep 2
+
+echo ""
+echo "- Downloading from the AUR"
+echo ""
+
+git clone https://aur.archlinux.org/gnome-control-center-system76.git
+
+echo ""
+echo "- Enter the directory and building"
+echo ""
+
+cd gnome-control-center-system76
+makepkg -srcif
+cd ..
+
 echo "----------------------------"
 echo "| Is this a Thelio system? |"
 echo "| - Yes                    |"
