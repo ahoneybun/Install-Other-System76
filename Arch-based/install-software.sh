@@ -216,7 +216,7 @@ Yes) git clone https://aur.archlinux.org/system76-io-dkms.git
    makepkg -srcif
    cd ..
    ;;
-No) break
+No) exit
 
 esac
 
@@ -234,7 +234,7 @@ Yes) git clone https://aur.archlinux.org/system76-oled.git
    makepkg -srcif
    cd ..
    ;;
-No) exit 1
+No) exit 
 
 esac
 
