@@ -71,36 +71,8 @@ echo "| - Yes                         |"
 echo "| - No                          |"
 echo "---------------------------------"
 
-echo -n ": "; read closed
-case "$closed" in
-
-Yes) 
-   echo ""
-   echo "- Downloading from the AUR"
-   echo ""
-
-   git clone https://aur.archlinux.org/system76-dkms.git
-
-   echo ""
-   echo "- Entering the directory and building"
-   echo ""
-
-   cd system76-dkms
-   makepkg -srcif
-   cd ..
-   ;;
-No) break
-
-esac
-
-echo "---------------------------------"
-echo "| Does this have Open Firmware? |"
-echo "| - Yes                         |"
-echo "| - No                          |"
-echo "---------------------------------"
-
-echo -n ": "; read closed
-case "$closed" in
+echo -n ": "; read firmware
+case "$firmware" in
 
 Yes) 
    echo ""
@@ -116,8 +88,23 @@ Yes)
    cd system76-acpi-dkms
    makepkg -srcif
    cd ..
+
    ;;
-No) break
+No)
+   echo ""
+   echo "- Downloading from the AUR"
+   echo ""
+
+   git clone https://aur.archlinux.org/system76-dkms.git
+
+   echo ""
+   echo "- Entering the directory and building"
+   echo ""
+
+   cd system76-dkms
+   makepkg -srcif
+   cd ..
+   ;;
 
 esac
 
