@@ -1,4 +1,4 @@
-## Debian 10
+## Debian 11
 
 ### This was done on a System76 Oryx Pro (oryp4)
 
