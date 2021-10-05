@@ -1,13 +1,27 @@
 # Debian 11 (WIP)
 
-## Add system76 PPA
+## Install System76 Firmware (CLI tool for firmware updates)
+
+### Download the `system76-firmware.deb` file
+
+#### Install it:
 
 ```
-su root
-add-apt-repository ppa:system76-dev/stable
+sudo dpkg -i system76-firmware.deb
 ```
 
-## Add python3-xkit from Ubuntu
+## Install Firmware Manager (GUI tool for firmware updates)
+
+### Download the files for `firmware-manager` (there are 5 in total)
+
+#### Install them:
+
+```
+cd folder-name
+sudo dpkg -i *
+```
+
+## Install python3-xkit from Ubuntu
 
 ```
 apt install wget
