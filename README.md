@@ -32,7 +32,7 @@ NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install s
 - [ ] Sound key combos
 - [ ] System76 Driver Log creation
 - [ ] Graphic Switching (only applies to NVIDIA systems)
-- [ ] Power profiles (GNOME Shell Extension and command line)
+- [ ] Power profiles (GNOME Shell 40 Extension and command line)
 
 
 ## OpenSUSE based
@@ -43,7 +43,7 @@ NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install s
 - [ ] Sound key combos
 - [ ] System76 Driver Log creation
 - [ ] Graphic Switching (only applies to NVIDIA systems)
-- [ ] Power profiles (GNOME Shell Extension and command line)
+- [ ] Power profiles (GNOME Shell 40 Extension and command line)
 
 ## Red Hat based
 
@@ -53,4 +53,4 @@ NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install s
 - [ ] Sound key combos
 - [ ] System76 Driver Log creation
 - [ ] Graphic Switching (only applies to NVIDIA systems)
-- [ ] Power profiles (GNOME Shell Extension and command line)
+- [ ] Power profiles (GNOME Shell 40 Extension and command line)
