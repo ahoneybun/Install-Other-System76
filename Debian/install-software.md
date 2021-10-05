@@ -23,6 +23,15 @@ cd folder-name
 sudo dpkg -i *
 ```
 
+#### Add user to the adm group (for Firmware Manager)
+
+```
+su
+sudo usermod -aG adm $USER
+```
+
+Read [this article](https://support.system76.com/articles/system-firmware) to learn more about firmware updates.
+
 ---
 
 BROKEN
