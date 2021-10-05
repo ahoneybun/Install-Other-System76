@@ -1,14 +1,6 @@
 ## Debian 11
 
-### This was done on a System76 Oryx Pro (oryp4)
-
-This is the end partition layout using the steps below:
-
-```nvme0n1        259:0    0 465.8G  0 disk  
-├─nvme0n1p1    259:1    0     1G  0 part  /boot
-├─nvme0n1p2    259:2    0   457G  0 part  /
-└─nvme0n1p3    259:3    0   7.8G  0 part  [SWAP]
-```
+### This was done on a System76 Oryx Pro (oryp4) and System76 Galago Pro (galp3) 
 
 ## Boot from Live Disk
 
