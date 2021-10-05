@@ -4,7 +4,7 @@ This work is all community work and none of it has been tested by System76 QA or
 
 ## Arch
 
-- [x] Firmware Updates
+- [x] Firmware Updates (CLI and GUI)
 - [x] Keyboard backlight key combo(s)
 - [x] Screen backlight key combos
 - [x] Sound key combos
@@ -14,7 +14,7 @@ This work is all community work and none of it has been tested by System76 QA or
 
 ## Debian
 
-- [x] Firmware Updates
+- [x] Firmware Updates (CLI only)
 - [ ] Keyboard backlight key combo(s)
 - [ ] Screen backlight key combos
 - [ ] Sound key combos
