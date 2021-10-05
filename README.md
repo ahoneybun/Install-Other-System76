@@ -24,6 +24,17 @@ This work is all community work and none of it has been tested by System76 QA or
 
 NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install system76-power and other packages due to libc6 being too old. 
 
+## Fedora based
+
+- [ ] Firmware Updates
+- [ ] Keyboard backlight key combo(s)
+- [ ] Screen backlight key combos
+- [ ] Sound key combos
+- [ ] System76 Driver Log creation
+- [ ] Graphic Switching (only applies to NVIDIA systems)
+- [ ] Power profiles (GNOME Shell Extension and command line)
+
+
 ## OpenSUSE based
 
 - [ ] Firmware Updates
