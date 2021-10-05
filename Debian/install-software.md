@@ -4,7 +4,7 @@
 
 ## Install System76 Firmware (CLI tool for firmware updates)
 
-### Download the `system76-firmware.deb` file
+### Download the [`system76-firmware.deb`](https://github.com/ahoneybun/Install-Other-System76/blob/main/Debian/system76-firmware_1.0.26_amd64.deb) file
 
 #### Install it:
 
@@ -14,7 +14,7 @@ sudo dpkg -i system76-firmware.deb
 
 ## Install Firmware Manager (GUI tool for firmware updates)
 
-### Download the files for `firmware-manager` (there are 5 in total)
+### Download the [`firmware-manager.zip`](https://github.com/ahoneybun/Install-Other-System76/blob/main/Debian/firmware-manager.zip) (there are 5 files in total)
 
 #### Install them:
 
