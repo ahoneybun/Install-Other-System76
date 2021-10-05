@@ -1,11 +1,13 @@
-#### Add system76 ppa
+# Debian 11 (WIP)
+
+## Add system76 PPA
 
 ```
 su root
 add-apt-repository ppa:system76-dev/stable
 ```
 
-#### Add python3-xkit from Ubuntu
+## Add python3-xkit from Ubuntu
 
 ```
 apt install wget
