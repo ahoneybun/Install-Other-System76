@@ -1,4 +1,4 @@
-# General packages to install:
+# Development packages to install:
 
 ```
 sudo apt install at pm-utils
