@@ -36,7 +36,7 @@ apt full-upgrade
 
 ```
 su 
-/sbin/usermod -aG sudo $USER
+sudo usermod -aG sudo $USER
 ```
 
 Replace $USER with your username.
@@ -55,4 +55,3 @@ systemctl reboot
 
 # Sources used
 - https://wiki.debian.org/SourcesList
-- https://forum.level1techs.com/t/debian-10-unable-to-usermod/148756
