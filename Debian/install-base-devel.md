@@ -49,7 +49,9 @@ system76-power:
 
 Packages for building:
 
+```
 sudo apt install libusb-1.0-0-de
+```
 
 Packages for installing:
 
