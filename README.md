@@ -12,7 +12,7 @@ This work is all community work and none of it has been tested by System76 QA or
 - [x] Graphic Switching (only works with X11)
 - [x] Power profiles (GNOME Shell 40 Extension and command line)
 
-## Debian
+## Debian 11
 
 - [x] Firmware Updates (CLI only)
 - [ ] Keyboard backlight key combo(s)
@@ -24,7 +24,7 @@ This work is all community work and none of it has been tested by System76 QA or
 
 NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install system76-power and other packages due to libc6 being too old. 
 
-## Fedora based
+## Fedora 34 based
 
 - [ ] Firmware Updates
 - [ ] Keyboard backlight key combo(s)
