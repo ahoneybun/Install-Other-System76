@@ -18,6 +18,8 @@ sudo pacman -S --needed base-devel git linux-headers
 uname -r
 ```
 
+## Using Paru
+
 You can use the below steps if you don't use an AUR helper but if you do want to use one you can use the steps below to use Paru:
 
 https://github.com/Morganamilo/paru
@@ -37,6 +39,8 @@ If you have a system with an OLED display:
 ```
 paru -S system76-oled
 ```
+
+## Installing Manually
 
 For any GNOME Shell extensions to show up in the Extensions application you will need to log out and back in.
 
