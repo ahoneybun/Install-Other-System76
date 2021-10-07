@@ -18,6 +18,26 @@ sudo pacman -S --needed base-devel git linux-headers
 uname -r
 ```
 
+You can use the below steps if you don't use an AUR helper but if you do want to use one you can use the steps below to use Paru:
+
+https://github.com/Morganamilo/paru
+
+```
+paru -S system76-firmware-daemon system76-firmware firmware-manager system76-power gnome-shell-extension-system76-power system76-driver system76-dkms system76-acpi-dkms
+```
+
+If you have a Thelio:
+
+```
+paru -S system76-io-dkms
+```
+
+If you have a system with an OLED display:
+
+```
+paru -S system76-oled
+```
+
 For any GNOME Shell extensions to show up in the Extensions application you will need to log out and back in.
 
 ## Build and Install system76-firmware
