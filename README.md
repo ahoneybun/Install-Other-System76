@@ -2,6 +2,9 @@
 
 This work is all community work and none of it has been tested by System76 QA or Engineering. This is not officially supported by the System76 Happiness Team (Tech Support). YMMV as always. 
 
+## System(s) tested
+- galp3-b
+
 ## Arch
 
 - [x] Firmware Updates (CLI and GUI)
