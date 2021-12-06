@@ -4,6 +4,6 @@ This work is all community work and none of it has been tested by System76 QA or
 
 ## OSes tested
 
-- Arch
-- Debian 11
-- Fedora 34 
+- Arch [report-card](https://github.com/ahoneybun/Install-Other-System76/blob/main/Arch-based/report-card.md)
+- Debian 11 [report-card](https://github.com/ahoneybun/Install-Other-System76/blob/main/Debian/report-card.md)
+- Fedora 34 [report-card](https://github.com/ahoneybun/Install-Other-System76/blob/main/Fedora-based/report-card.md)
