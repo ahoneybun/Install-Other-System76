@@ -4,9 +4,11 @@ This work is all community work and none of it has been tested by System76 QA or
 
 ## Arch
 
-## System(s) tested
+### System(s) tested
 - galp3-b
 - oryp4
+
+#### Features
 
 - [x] Firmware Updates (CLI and GUI)
 - [x] Keyboard backlight key combo(s)
@@ -19,8 +21,10 @@ This work is all community work and none of it has been tested by System76 QA or
 
 ## Debian 11
 
-## System(s) tested
+### System(s) tested
 - galp3-b
+
+#### Features
 
 - [x] Firmware Updates (CLI only)
 - [ ] Keyboard backlight key combo(s)
@@ -34,8 +38,10 @@ NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install s
 
 ## Fedora 34 based
 
-## System(s) tested
+### System(s) tested
 - 
+
+#### Features
 
 - [ ] Firmware Updates
 - [ ] Keyboard backlight key combo(s)
@@ -47,8 +53,10 @@ NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install s
 
 ## OpenSUSE based
 
-## System(s) tested
+### System(s) tested
 - 
+
+#### Features
 
 - [ ] Firmware Updates
 - [ ] Keyboard backlight key combo(s)
