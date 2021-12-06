@@ -13,7 +13,8 @@ This work is all community work and none of it has been tested by System76 QA or
 - [x] Sound key combos
 - [x] System76 Driver Log creation
 - [x] Graphic Switching (only works with X11)
-- [x] Power profiles (GNOME Shell 40 Extension and command line)
+- [x] Power profiles (GNOME Shell 40 Extension and command line work)
+- [ ] Power profiles (GNOME Shell 41 Extension and command line work)
 
 ## Debian 11
 
@@ -37,18 +38,7 @@ NVIDIA systems will be in NVIDIA mode at all times. Right now we can't install s
 - [ ] Graphic Switching (only applies to NVIDIA systems)
 - [ ] Power profiles (GNOME Shell 40 Extension and command line)
 
-
 ## OpenSUSE based
-
-- [ ] Firmware Updates
-- [ ] Keyboard backlight key combo(s)
-- [ ] Screen backlight key combos
-- [ ] Sound key combos
-- [ ] System76 Driver Log creation
-- [ ] Graphic Switching (only applies to NVIDIA systems)
-- [ ] Power profiles (GNOME Shell 40 Extension and command line)
-
-## Red Hat based
 
 - [ ] Firmware Updates
 - [ ] Keyboard backlight key combo(s)
