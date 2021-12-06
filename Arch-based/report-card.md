@@ -16,5 +16,6 @@
 | Item | Notes | Grade |
 |:--------:|:------------:|:----:|
 | Booting from media | Boots up to the installer with no changes | A |
-| Install | OS installs to the drive with no changes | A |
+| OS Install | OS installs to the drive with no changes | A |
 | Booting from new install | OS boots from the drive with no changes | A |
+| Install System76 Software | Software is available from the AUR | A |
