@@ -19,3 +19,4 @@
 | OS Install | OS installs to the drive with no changes | A |
 | Booting from new install | OS boots from the drive with no changes | A |
 | Install System76 Software | Software is available from the AUR | A |
+| System76 Software | Only software that does not work is system76-power with GNOME 41 | C |
