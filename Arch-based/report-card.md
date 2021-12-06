@@ -12,3 +12,9 @@
 - [x] Graphic Switching (only works with X11)
 - [x] Power profiles (GNOME Shell 40 Extension and command line work)
 - [ ] Power profiles (GNOME Shell 41 Extension and command line work)
+
+| Item | Notes | Grade |
+|:--------:|:------------:|
+| Booting from media | Boots up to the installer with no changes | A |
+| Install | OS installs to the drive with no changes | A |
+| Booting from new install | OS boots from the drive with no changes | A |
