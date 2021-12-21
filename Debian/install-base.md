@@ -43,6 +43,12 @@ apt install nvidia-driver
 systemctl reboot
 ```
 
+#### Install software for some audio devices like the oryp8:
+
+```
+apt install firmware-misc-nonfree
+```
+
 ### This will set up the system so that you can use the NVIDIA GPU but you can't switch graphics to use the Intel GPU. 
 
 # Sources used
