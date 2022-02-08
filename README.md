@@ -6,9 +6,9 @@ This work is all community work and none of it has been tested by System76 QA or
 
 - Arch 
    - [Report Card](https://github.com/ahoneybun/Install-Other-System76/blob/main/Arch/report-card.md)
-   - Final Grade : 🅱️
+   - Final Grade : B
 - Debian 11 
    - [Report Card](https://github.com/ahoneybun/Install-Other-System76/blob/main/Debian/report-card.md)
-   - Final Grade : 🇨
-- Fedora 34
+   - Final Grade : C
+- Fedora 35
    - [Report Card](https://github.com/ahoneybun/Install-Other-System76/blob/main/Fedora/report-card.md)
