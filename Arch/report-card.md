@@ -1,6 +1,7 @@
 ### System(s) tested
-- galp3-b
-- oryp4
+- galp3-b (Closed Firmware)
+- oryp4 (Closed Firmware
+- oryp6 (Open Firmware)
 
 #### Features
 
