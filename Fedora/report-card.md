@@ -1,5 +1,5 @@
 ### System(s) tested
-- 
+- galp3-b (Closed Firmware)
 
 #### Features
 
