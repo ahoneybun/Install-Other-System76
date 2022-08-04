@@ -27,3 +27,7 @@
 #### Graphic Switching 
 
 ![NVIDIA mode](https://github.com/ahoneybun/Install-Other-System76/blob/main/Screenshots/arch-nvidia-mode.png)
+
+![Compute/Integrated](https://github.com/ahoneybun/Install-Other-System76/blob/main/Screenshots/arch-compute_integrated-mode.png)
+
+When trying to switch to Integrated the `system76-power` package instead reports Compute and `nvidia-smi` reports that the NVIDIA GPU is indeed on but not being used so more kinda like Hybrid.
