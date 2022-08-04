@@ -1,9 +1,9 @@
-### System(s) tested
+# System(s) tested
 - galp3-b (Closed Firmware)
 - oryp4 (Closed Firmware)
 - oryp6 (Open Firmware)
 
-#### Features
+## Features
 
 - [x] Firmware Updates (CLI and GUI)
 - [x] Keyboard backlight key combo(s)
@@ -21,3 +21,9 @@
 | Booting from new install | OS boots from the drive with no changes | A |
 | Install System76 Software | Software is available from the AUR | A |
 | System76 Software | Only software that does not work is system76-power with GNOME 41 | C |
+
+### oryp6 Screenshots
+
+#### Graphic Switching 
+
+![NVIDIA mode](https://github.com/ahoneybun/Install-Other-System76/blob/main/Screenshots/arch-nvidia-mode.png)
