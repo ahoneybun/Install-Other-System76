@@ -1,5 +1,6 @@
 ### System(s) tested
 - galp3-b (Closed Firmware)
+- thelio-b1 (Closed Firmware)
 
 #### Features
 
@@ -18,4 +19,10 @@
 | OS Install | OS installs to the drive with no changes | A |
 | Booting from new install | OS boots from the drive with no changes | A |
 | Install System76 Software | Software is available from the AUR | A |
-| System76 Software | Only software that does not work is system76-power with GNOME 41 | C |
+| System76 Software | Only software that does not work is system76-power GNOME Extension with GNOME 44 | C |
+
+For System76 Power you do need to mask power-profiles-daemon:
+
+```bash
+sudo systemctl mask power-profiles-daemon.service
+```
