@@ -9,9 +9,8 @@
 - [x] Screen backlight key combos
 - [x] Sound key combos
 - [x] System76 Driver Log creation
-- [ ] Graphic Switching (only works with X11)
-- [x] Power profiles (GNOME Shell 40 Extension and command line work)
-- [ ] Power profiles (GNOME Shell 41 Extension and command line work)
+- [ ] Graphic Switching
+- [x] Power profiles 
 
 | Item | Notes | Grade |
 |:--------:|:------------:|:----:|
@@ -26,3 +25,5 @@ For System76 Power you do need to mask power-profiles-daemon:
 ```bash
 sudo systemctl mask power-profiles-daemon.service
 ```
+
+ GNOME Shell Extension does not support GNOME 44
