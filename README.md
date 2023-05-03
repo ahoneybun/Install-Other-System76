@@ -10,6 +10,6 @@ This work is all community work and none of it has been tested by System76 QA or
 - Debian 11 
    - [Report Card](https://github.com/ahoneybun/Install-Other-System76/blob/main/Debian/report-card.md)
    - Final Grade : C
-- Fedora 35
+- Fedora 38
    - [Report Card](https://github.com/ahoneybun/Install-Other-System76/blob/main/Fedora/report-card.md)
    - Final Grade : B
